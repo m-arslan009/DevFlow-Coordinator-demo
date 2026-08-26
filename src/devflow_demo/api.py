@@ -1,2 +1,3 @@
-def task_payload(task_id: int, title: str) -> dict:
-    return {'id': task_id, 'title': title}
+
+def task_summary(title: str, status: str) -> str:
+    return f'{title} [{status}]'
